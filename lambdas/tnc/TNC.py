@@ -9,13 +9,11 @@
 # 
 # Global Site: https://www.nature.org/en-us/
 
-# In[9]:
+# In[2]:
 
 
 import bs4
 import requests
-import re
-import lxml.html
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
