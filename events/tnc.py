@@ -1,16 +1,7 @@
 
-# coding: utf-8
-
-# ![image.png](attachment:image.png)
-# 
-# 
-# 
-# ### Events Scraping for The Nature Conservancy (TNC) - Virginia 
-# 
+# Events Scraping for The Nature Conservancy (TNC) - Virginia 
+#
 # Global Site: https://www.nature.org/en-us/
-
-# In[18]:
-
 
 import bs4
 import requests
@@ -53,7 +44,7 @@ def main():
         else:
             end_date_s = start_date_s
 
-        end_date=datetime.strptime(end_date_s,'%b %d, %Y').strftime('%Y-%m-%d')   # format of conditional statements 
+        end_date=datetime.strptime(end_date_s,'%b %d, %Y').strftime('%Y-%m-%d')   
 
         time=fields['event_timings']
 
